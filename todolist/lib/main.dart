@@ -136,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 title: Text(item.text),
                 subtitle: Text(
                   // item.date.toString().replaceAll('-', '/').substring(0, 19),
-                  DateFormat('yyyy/MM/dd HH:mm:ss').format(item.date),
+                  DateFormat('yyyy-MM-dd HH:mm:ss').format(item.date),
                 ),
               ),
             );
